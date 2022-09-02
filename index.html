@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Rating Component</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="star">
+            <img src="./interactive-rating-component-main/images/icon-star.svg" alt="">
+        </div>
+        <div class="how">
+            <h2>How did we do?</h2>
+            <p>Please let us know how we did with your support request.
+                All feedback is appreciated to help us improve our offering!
+            </p>
+                <ul>
+                    <li><button class="btn-num">1</button></li>
+                    <li><button class="btn-num">2</button></li>
+                    <li><button class="btn-num">3</button></li>
+                    <li><button class="btn-num">4</button></li>
+                    <li><button class="btn-num">5</button></li>
+                </ul>
+                <button id="button-sub" type="submit" value="submit">
+                    SUBMIT
+                </button>
+        </div>
+    </div>
+
+    <div class="thank hidden">
+        <img src="./interactive-rating-component-main/images/illustration-thank-you.svg" alt="">
+        <div class="select">
+            You selected <span id="result">5</span> out of 5
+        </div>
+        <h3>Thank you!</h3>
+        <p>We appreciate you taking the time to give a rating.
+            If you ever need more support don't hesitate to get in touch!
+        </p>
+    </div>
+    <script src="index.js"> </script>
+</body>
+</html>

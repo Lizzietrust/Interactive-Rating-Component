@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass';
+}
+
+body {
+    background: hsl(216, 12%, 8%);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: hsl(213, 19%, 18%);
+    max-width: 400px;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.star img {
+    padding: 10px;
+    background-color: hsl(213, 20%, 22%);
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+.how h2 {
+    color: hsl(0, 0%, 100%);
+}
+
+.how p {
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    padding-top: 15px;
+    line-height: 23px;
+}
+
+.how ul  {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.how ul .btn-num {
+    background-color: hsl(213, 20%, 22%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    padding: 12px 16px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-family: inherit;
+    transition: 0.5s ease;
+}
+
+.how ul .btn-num:hover {
+    background-color: hsl(25, 97%, 53%);
+}
+
+.how ul .btn-num:focus {
+    background-color: hsl(217, 12%, 63%);
+}
+
+.how #button-sub {
+    margin-top: 30px;
+    font-size: 15px;
+    padding: 9px 110px;
+    background-color: hsl(25, 97%, 53%);
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    transition: 0.5s ease;
+    width: 100%;
+}
+
+.how #button-sub:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.thank {
+    background-color: hsl(213, 19%, 18%);
+    max-width: 400px;
+    padding: 25px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.thank img {
+    margin: 15px 0;
+}
+
+.thank .select {
+    margin: 1rem 3rem;
+    background-color: hsl(213, 20%, 22%);
+    font-size: 15px;
+    padding: 9px 5px 5px 9px;
+    color: hsl(25, 97%, 53%);
+    border-radius: 20px;
+}
+
+.thank h3 {
+    text-align: center;
+    padding-top: 10px;
+    color: hsl(0, 0%, 100%);
+    font-size: 25px;
+}
+
+.thank p {
+    text-align: center;
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    padding: 8px 0;
+    line-height: 23px;
+}
